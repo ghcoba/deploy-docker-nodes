@@ -1,11 +1,12 @@
-# dockernodes-ansible
+# deploy-docker-nodes using ansible
 
 
 
 A ansible script to installs docker nodes on CentOS 7
 
 ## Features
-* deploy docker-ce nodes (latest 18.03 or after)
+* for centos 7
+* deploy docker-ce nodes (latest 18.06 or after)
 * add yum tools for installing docker-ce
 * add repository for docker-ce installation
 
