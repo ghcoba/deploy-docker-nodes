@@ -1,0 +1,8 @@
+---
+
+- hosts: docker-nodes
+  become: yes
+  roles:
+    - role: docker
+  tags:
+    - docker
